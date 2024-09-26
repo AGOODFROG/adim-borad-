@@ -1,6 +1,17 @@
 body{
     display: flex;
 }
+.form-info{
+    display: flex;
+    align-self: center;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
 h1{
     color:aquamarine;
 }
