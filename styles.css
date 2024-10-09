@@ -1,5 +1,8 @@
 body{
     display: flex;
+   align-content: end;
+  
+    
 }
 .form-info{
     display: flex;
@@ -7,11 +10,28 @@ body{
     
     
 }
+label{
+    display: block;
+    width: 10px;
+}
 
 form{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+   
+    
 }
 h1{
     color:aquamarine;
+}
+img{
+    width: 70%;
+    height: auto;
+}
+.sub-input{
+    margin: 5%;
+}
+.img-bar{
+    padding: 5px;
 }
